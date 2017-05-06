@@ -1,0 +1,3 @@
+azure group deployment create -f vmss.windows.json -e vmss.windows.params.json  -g atulm-rg-demo2 -n atulmvmssdemo2
+
+azure group deployment create -f vmss.ubuntu.json -e vmss.ubuntu.params.json  -g atulm-rg-demo2 -n atulmvmssdemo2

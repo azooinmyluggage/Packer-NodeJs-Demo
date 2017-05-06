@@ -1,0 +1,24 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "vmSSName": {
+      "value": "atulmvmssdemo3"
+    },
+    "instanceCount": {
+      "value": "1"
+    },
+    "vmSku": {
+      "value": "Standard_A1"
+    },
+    "vmImage": {
+      "value": "https://atulmpackerstorage.blob.core.windows.net/system/Microsoft.Compute/Images/vsts-buildimagetask/Release-3-osDisk.de3d25b9-4b95-427c-9f6e-b1895daa1963.vhd"
+    },
+    "adminUsername": {
+      "value": "atulm"
+    },
+    "adminPassword": {
+      "value": "@!HoHum@4321"
+    }
+  }
+}
