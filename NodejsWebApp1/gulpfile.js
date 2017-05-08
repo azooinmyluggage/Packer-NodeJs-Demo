@@ -16,7 +16,7 @@ gulp.task("deploy", function () {
 
 const fs = require('fs');
 
-gulp.task('compile', function () {
+gulp.task('default', function () {
     gulp.src(['**/*.ts', '!**/node_modules/**'])
     .pipe(typescript())
     .pipe(gulp.dest('./'))
