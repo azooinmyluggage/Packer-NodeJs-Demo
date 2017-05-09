@@ -15,10 +15,10 @@
       "value": "https://atulmpackerstorage.blob.core.windows.net/system/Microsoft.Compute/Images/vsts-buildimagetask/Release-3-osDisk.de3d25b9-4b95-427c-9f6e-b1895daa1963.vhd"
     },
     "adminUsername": {
-      "value": "atulm"
+      "value": "*****"
     },
     "adminPassword": {
-      "value": "@!HoHum@4321"
+      "value": "*******"
     }
   }
 }
