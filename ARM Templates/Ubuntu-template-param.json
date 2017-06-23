@@ -1,0 +1,24 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "vmSku": {
+      "value": "Standard_D1_v2"
+    },
+    "vmssName": {
+      "value": "atulmsym3"
+    },
+    "capacity": {
+      "value": 1
+    },
+    "adminUsername": {
+      "value": "atulm"
+    },
+    "adminPassword": {
+      "value": "@!Symantec@4321"
+    },
+    "sourceImageVhdUri": {
+      "value": "https://sysvm1vhd.blob.core.windows.net/image/Release-13-osDisk.eb579fac-2b03-4dc5-8400-edcf6ec49a41.vhd"
+    }
+  }
+}
