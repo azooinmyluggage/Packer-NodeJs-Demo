@@ -37,7 +37,7 @@
             }
         },
         "capacity": {
-            "defaultValue": 2,
+            "defaultValue": 1,
             "maxValue": 20,
             "type": "Int",
             "metadata": {
