@@ -13,6 +13,6 @@ sudo service nginx restart
 sudo apt-get update
 sudo apt-get install -y npm
 sudo npm install -g pm2
-sudo pm2 start $script_dir/../../server.js
+sudo pm2 start -f $script_dir/../../server.js
 sudo pm2 startup systemd
 sudo pm2 save
