@@ -1,3 +1,10 @@
-azure group deployment create -f vmss.windows.json -e vmss.windows.params.json  -g atulm-rg-demo2 -n atulmvmssdemo2
+https://azure.microsoft.com/en-us/resources/templates/201-vmss-linux-customimage-autoscale/
 
+https://github.com/bishal-pdMSFT/packer-sample/blob/master/azuredeployubuntu14.json 
+https://github.com/bishal-pdMSFT/packer-sample/blob/master/azuredeployubuntu14.parameters.json 
+
+New-AzureRmResourceGroupDeployment -ResourceGroupName rg -Name cbdcdb -TemplateFile E:\github\packer-sample\azuredeployubuntu14.json -TemplateParameterFile E:\github\packer-sample\azuredeployubuntu14.parameters.json 
+
+
+azure group deployment create -f vmss.windows.json -e vmss.windows.params.json  -g atulm-rg-demo2 -n atulmvmssdemo2
 azure group deployment create -f vmss.ubuntu.json -e vmss.ubuntu.params.json  -g atulm-rg-demo2 -n atulmvmssdemo2
