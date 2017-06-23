@@ -259,7 +259,7 @@
             "location": "[resourceGroup().location]",
             "properties": {
                 "upgradePolicy": {
-                    "mode": "Manual"
+                    "mode": "Automatic"
                 },
                 "virtualMachineProfile": {
                     "storageProfile": {
