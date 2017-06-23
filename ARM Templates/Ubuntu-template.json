@@ -37,12 +37,12 @@
             }
         },
         "capacity": {
-            "defaultValue": 1,
-            "maxValue": 20,
-            "type": "Int",
+            "type": "int",
             "metadata": {
                 "description": "Number of VM instances (20 or less)."
-            }
+            },
+            "defaultValue": 2,
+            "maxValue": 20
         },
         "adminUsername": {
             "type": "String",
