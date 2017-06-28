@@ -1,10 +1,13 @@
 #!/bin/sh
+
 sudo apt-get install -y curl
+
 
 curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
 
 sudo apt-get update
 sudo apt-get install -y nodejs
+
 
 sudo apt-get update
 sudo apt-get install -y nginx
@@ -21,5 +24,6 @@ sudo apt-get install -y npm
 sudo npm install -g pm2
 sudo pm2 start -f $script_dir/../../server.js
 sudo pm2 startup systemd 
+
 
 sudo pm2 save
