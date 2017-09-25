@@ -6,7 +6,7 @@
       "value": "Standard_D1_v2"
     },
     "vmssName": {
-      "value": "bishalub3"
+      "value": "atulmvmsscd"
     },
     "instanceCount": {
       "value": 1
@@ -15,10 +15,10 @@
       "value": "tfs"
     },
     "imageUri":{
-      "value": "https://sachinmastorage.blob.core.windows.net/system/Microsoft.Compute/Images/vsts-buildimagetask/Release-1-osDisk.320dfbb3-bee1-4886-b84c-96feafc45c48.vhd"
+      "value": "https://atulmpackerstorage.blob.core.windows.net/system/Microsoft.Compute/Images/vsts-buildimagetask/Release-8-osDisk.17536171-a355-407b-88f0-d25d42d5dcf7.vhd"
     },
     "adminPassword": {
-      "value": "GameNight!12"
+      "value": "@!HoHum@4321"
     }
   }
 }
