@@ -15,5 +15,5 @@ sudo apt-get install -y npm
 sudo npm install -g pm2
 sudo pm2 startup upstart
 sudo env PATH=$PATH:/usr/bin /usr/lib/node_modules/pm2/bin/pm2 startup upstart -u atulm --hp /home/atulm
-sudo pm2 start -f $script_dir/../../server.js
+pm2 start -f $script_dir/../../server.js
 sudo pm2 save
